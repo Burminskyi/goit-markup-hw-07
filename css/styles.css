@@ -315,9 +315,66 @@ a {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people_office.jpg);
+    url(../images/mobile-hero.jpg);
     background-position: center;
+    background-size: cover;
 }
+
+@media (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+     url(../images/mobile-hero2x.jpg);
+    }
+}
+
+@media (min-width: 481px) {
+    .hero {
+        background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/tablet-hero.jpg);
+    }
+    @media (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+     url(../images/tablet-hero2x.jpg);
+        }
+    }
+}
+
+@media (min-width: 769px) {
+    .hero {
+        background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+     url(../images/desktop-hero.jpg);
+    }
+    @media (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+     url(../images/desktop-hero2x.jpg);
+        }
+    }
+}
+
+
+
 
 .hero-title {
     margin-top: 0;
