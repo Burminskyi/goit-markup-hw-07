@@ -1284,7 +1284,9 @@ button {
 }
 
 .port img {
-    display: block;
+        display: block;
+        height: 100%;
+        width: 100%;
 }
 
 .port-card {
@@ -1306,6 +1308,7 @@ button {
 }
 
 .product-actions {
+    height: 280px;
     position: relative;
     overflow: hidden;
 }
